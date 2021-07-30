@@ -1,0 +1,40 @@
+name: CustomEssentials
+version: ${project.version}
+author: Copyright135
+main: io.github.copyright135.CustomEssentials.CustomEssentials
+description: Custom Essentials plugin
+
+commands:
+  heal:
+    aliases: [h]
+    description: Heals the user
+    usage: /heal
+
+  feed:
+    description: Feeds the user
+    usage: /feed
+
+  fly:
+    aliases: [tf, toggleflight, flight, togglefly]
+    description: Toggles the user's fly state
+    usage: /fly
+
+  toggledownfall:
+    aliases: [td, togglerain, rain]
+    description: Toggles between raining and clear weather
+    usage: /toggledownfall
+
+  togglecreative:
+    aliases: [tc, creative, c, godmode, god, togglegodmode, tgm]
+    description: Toggles creative mode for user
+    usage: /creative
+
+  level:
+    aliases: [l]
+    description: Adds specified number of levels to user
+    usage: /level <amount>
+
+  repair:
+    aliases: [r]
+    description: Repairs all of user's items
+    usage: /repair

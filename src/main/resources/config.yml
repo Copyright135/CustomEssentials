@@ -1,0 +1,33 @@
+#General
+sender_not_player: '&cOnly players can use this command.'
+insufficient_permission: '&cYou do not have permission to use this command.'
+
+#Heal
+healed_message: '&cYou have been healed'
+
+#Feed
+fed_message: '&6You have been fed'
+
+#Fly
+fly:
+  enabled: '&aFlying enabled'
+  disabled: '&aFlying disabled'
+  invalid_gamemode: '&cCould not toggle flight as your game mode already allows it'
+
+#Toggle Downfall
+downfall:
+  enabled: '&3Downfall toggled on'
+  disabled: '&3Downfall toggled off'
+
+#Creative
+creative:
+  enabled: '&eCreative toggled on'
+  disabled: '&eCreative toggled off'
+
+#Level
+level:
+  leveled: '&aYou have been given <amount> levels'
+  invalid_level_arg: '&cParameter must be a numverical value'
+
+#Repair
+repaired_message: '&7Your items have been repaired'
