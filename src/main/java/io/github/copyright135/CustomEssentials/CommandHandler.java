@@ -9,7 +9,6 @@ public class CommandHandler {
     public CommandHandler(JavaPlugin plugin) {
         this.plugin = plugin;
         loadCommands();
-        plugin.getCommand("fly").setExecutor(new Fly(plugin));
     }
 
     private void loadCommands() {
